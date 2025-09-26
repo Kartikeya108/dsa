@@ -19,7 +19,6 @@ public class towerofhonoi {
         }
         towerOfHanoi(n - 1, source, auxiliary, target);
         System.out.println("Move disk " + n + " from rod " + source + " to rod " + target);
-       
         count++;
         towerOfHanoi(n - 1, auxiliary, target, source);
     }
