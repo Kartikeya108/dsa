@@ -1,6 +1,7 @@
 import java.util.*;
 
 public class Royaltournament {
+    @SuppressWarnings("ConvertToTryWithResources")
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -20,7 +21,7 @@ public class Royaltournament {
 
             if (rowSum > maxSum) {
                 maxSum = rowSum;
-                winnerIndex = i;3
+                winnerIndex = i;
             }
         }
 
